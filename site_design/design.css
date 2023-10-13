@@ -27,6 +27,7 @@ body {
 
   .title-of-site{
     font-family: "DharMannFont";
+    margin: auto;
     font-size: 30px;
     width: 1500px;
     text-align: center;
@@ -40,7 +41,8 @@ body {
     font-style: italic;
     width: 1500px;
     text-align: center;
-    color:#ffffff
+    color:#ffffff;
+    margin: auto;
   }
 
   .site-buttons{
@@ -52,6 +54,7 @@ body {
     text-align: center;
     padding-top:15px;
     padding-bottom:15px;
+    margin: auto;
   }
   
   .site-description{
