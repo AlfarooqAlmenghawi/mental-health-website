@@ -45,21 +45,22 @@ body {
     margin: auto;
   }
 
-  .site-buttons{
+  .site-buttons-background {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    background-color: rgb(227,65,64);
+    width: 100%; /* occupy full width of its parent */
+  }
+  
+  .site-buttons {
     font-size: 20px;
     font-family: "DharMannFont";
-    color:white;
+    color: white;
     text-align: center;
-    padding-top:15px;
-    padding-bottom:15px;
-    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
-
-  .site-buttons-background{
-    background-color: rgb(227,65,64);
-    margin: auto;
-    /*text-align: center;*/
-  }
+  
 
 
   
