@@ -1,0 +1,152 @@
+
+/* Site title and buttons (links) */
+                
+
+@font-face {
+  font-family: "DharMannFont";
+  src: url('../fonts/Aku&Kamu.otf');  /* Notice the relative path */
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/depressed-boy-image.jpg');
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; /* This keeps the background image fixed during scrolling */
+  background-image: o;
+}
+
+
+
+  .title-of-site{
+    font-family: "DharMannFont";
+    font-size: 30px;
+    width: 1500px;
+    text-align: center;
+    color:#ffffff
+  
+  }
+
+  .site-header{
+    font-family: "DharMannFont";
+    font-size: 15px;
+    font-style: italic;
+    width: 1500px;
+    text-align: center;
+    color:#ffffff
+  }
+
+  .site-buttons{
+    
+    font-size: 20px;
+    font-family: "DharMannFont";
+    background-color: rgb(227,65,64);
+    color:white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+  
+  .site-description{
+    font-family: "DharMannFont";
+    color: white;
+    font-size: 17px;
+    /*display: block;*/
+    width: 1300px;
+    /*text-align: center;*/
+    margin: auto;
+    padding-top: 5px;
+    margin-top: 5px;
+
+  }
+
+  .site-description-background{
+    background-color: rgb(55, 36, 36);
+    margin: auto;
+    height: 1000px;
+    width: 1450px
+    /*text-align: center;*/
+  }
+
+  .giant-but-word{
+    padding-top: 0px;
+    font-size: 50px;
+    color: rgb(255, 116, 116);
+  }
+
+  .website-stats-statement{
+    color: brown;
+    font-size: 60px;
+  }
+
+  .blogs-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+  }
+
+  .blogs-button:active{
+    color: black
+  }
+
+  .contact-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .contact-button:active{
+    color: black
+  }
+
+/* Depressed button below */
+
+  .depressed-button{
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+    color:rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4428bc;
+    height: 50px;
+    width: 600px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 0px;
+    
+    box-shadow: 0px 0px 0px #4428bc;
+    font-size: 18px;
+    font-family: "DharMannFont";
+    transition:  
+     color 0.2s, 
+     box-shadow 0.2s,
+     border-width 0.15s,
+     opacity 0.1s,
+     font-size 0.2s
+    
+    
+  }
+
+  .depressed-button:hover{    
+    color: rgb(0, 0, 149);
+    border-color:#4428bc;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+    border-width: 4px;
+    font-size: 22px
+  }
+
+  .depressed-button:active{
+    opacity: 0.5;
+  }
+
+  
+
+
+  

@@ -1,110 +1,116 @@
-<body style="background-color:#ffffff"></body>
+<!DOCTYPE html>
+<html>
+<head>
 
-<!-- TESTING TEXT INPUTS (Paragraph/Title of website)-->
+    <title>Rubbish Life</title>
 
-<style>
-  .title-of-site{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    font-style: italic;
-    width: 1500px;
-    text-align: center;
+    <link rel="stylesheet" href="site_design/design.css">
+    <link rel="stylesheet" href="site_design/rain.css">
+
+    <link href="https://fonts.cdnfonts.com/css/aku-kamu" rel="stylesheet">
+
+</head>
   
-  }
+<body>
 
-  .site-description{
-    font-size: 14px;
-    font-family: Arial;
-    background-color: rgb(227,65,64);
-    color:white;
-    text-align: center;
-    padding-top:15px;
-    padding-bottom:15px;
-  }
+  
 
-</style>
+<body style="background-color:rgb(255, 255, 255)"></body>
+
 
 <p class="title-of-site">
-  Life is trash. You know it, I know it. &#183; (UPDATE)
+  Made by Alfarooq Almenghawi &#183; (You're currently in the home page.)
 </p>
 
-<p class="site-description">
-  I don't even know why I am here.
+<p class="site-header">
+  All links below are always opened in new tab.
 </p>
 
+<p class="site-buttons">
+  <span class="blogs-button" data-href="https://www.youtube.com" target="_blank">Blogs</span> &#124; <span class="contact-button" data-href="https://www.example.com" target="_blank">Contact me</span>
 
-<!-- THE FOLLOWING CODE IS FOR THE "DEPRESSED" BUTTON -->
+  <script src="site_code/site_buttons.js"></script>
+</p>
 
-<style>
+<br>
+
+
+<!-- THE FOLLOWING HTML CODE IS FOR THE "DEPRESSED" BUTTON -->
   
-  .depressed-button{
-    background-color: #ffffff;
-    color:rgb(0, 0, 0);
-    border-width: 2px;
-    border-style: solid;
-    border-color: #4428bc;
-    height: 50px;
-    width: 600px;
-    border-radius: 25px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-weight: bold;
-    box-shadow: 0px 0px 0px #4428bc;
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition:  
-     color 0.2s, 
-     box-shadow 0.2s,
-     border-width 0.15s,
-     opacity 0.1s,
-     font-size 0.2s
-     
-    
-  }
-
-  .depressed-button:hover{    
-    color: rgb(0, 0, 149);
-    border-color:#4428bc;
-    box-shadow: 0px 0px 0px rgb(0, 0, 0);
-    border-width: 4px;
-    font-size: 15px
-  }
-
-  .depressed-button:active{
-    opacity: 0.5;
-  }
-
-</style>
-
-  
-<button class="depressed-button"  onclick="play();">
-  Depressed? Aw, man. Click/Tap this button for rain sound
+<button class="depressed-button"  onclick="handleButtonClick();">
+  Click this button for depressing rain sound
 </button>
 
-<script>
-  if (audio == nil) audio.pause();
-  function play(){
-  var audio = new Audio ('https://c5.rbxcdn.com/ff684089d4796cdb2d2cac60059761fe');
-  audio.play();
-  };
-</script>
+
+<!-- Audio element -->
+<audio id="rain-sound">
+  <source src="sounds/rain.mp3" type="audio/mp3">
+</audio>
+
+<script src="site_code/depressed_button.js"></script>
 
 <!-- END OF "DEPRESSED" BUTTON -->
 
-<button class="join-button">JOIN</button>
-<style>
-  .join-button{
-    margin-top: 10px;
-  }
-</style>
+<br>
+
+<div class="site-description-background">
+  <div class="site-description">
+  <p>
+    Everyone just says that Depression is like having a rain cloud follow you around all the time. 
+    And that You feel really sad, tired, and you don't enjoy things that you usually find fun, like playing games or hanging out with friends.
+    But that's not the case. 
+    It's all thanks to people around you ruining your life all the time, by doing things that are at the expense of harming your mental health and wellbeing.
+    This can include ignoring you, disrespecting you, and just overall making your life miserable, I can't be bothered stating all the harm that people are capable of doing, because there is too much.
+  </p>
+
+  <p class="giant-but-word">
+    BUT.
+  </p>
+
+  <p>
+    This isn't what this site is even for. See below:
+  </p>
+
+  <p class="website-stats-statement">
+    GLOBAL WEBSITE STATS
+  </p>
+
+  
+  </div>
+</div>
 
 
 <!-- GOOGLE TEST -->
+
+<br>
+
+<script src="site_code/rain_animation.js"></script>
 
 <a href="https://www.google.com" target="_blank">
   Go to Google
 </a>
 
 
-  
+</body>
+</html>
+
+<!-- HOW TO MAKE JAVASCRIPT WAIT
+
+<script>
+  function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function demo() {
+  console.log("Initial altitude...");
+  await sleep(15000);
+  console.log("Cruising altitude reached!");
+}
+
+demo();
+
+</script>
+
+-->
+
+
