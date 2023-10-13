@@ -46,16 +46,22 @@ body {
   }
 
   .site-buttons{
-    
     font-size: 20px;
     font-family: "DharMannFont";
-    background-color: rgb(227,65,64);
     color:white;
     text-align: center;
     padding-top:15px;
     padding-bottom:15px;
     margin: auto;
   }
+
+  .site-buttons-background{
+    background-color: rgb(227,65,64);
+    margin: auto;
+    /*text-align: center;*/
+  }
+
+
   
   .site-description{
     font-family: "DharMannFont";
