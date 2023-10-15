@@ -1,7 +1,8 @@
 // SITE BUTTONS
 
 // Add click event to all clickable spans
-document.addEventListener("DOMContentLoaded", function() {
+
+/* document.addEventListener("DOMContentLoaded", function() {
   var clickableSpans = document.querySelectorAll(".blogs-button, .contact-button");
 
   clickableSpans.forEach(function(span) {
@@ -16,4 +17,4 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
-});
+}); */
